@@ -1,0 +1,10 @@
+{
+  "repo": "../data/repos/requests",
+  "output": "../results/requests",
+  "database": "../data/requests.sqlite",
+  "start": "2023-01-01",
+  "end": "2026-01-01",
+  "ref": "3c7baaa05ab4aa49cc819ce3a819d260de19c157",
+  "snapshots": ["v2.28.2", "v2.29.0", "v2.30.0", "v2.31.0", "v2.32.0", "v2.32.3", "v2.32.4", "v2.32.5"],
+  "source_paths": ["requests", "src/requests"]
+}

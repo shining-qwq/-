@@ -1,0 +1,7 @@
+# Direct dependency versions used for the recorded Windows / Python 3.14 experiment.
+# Transitive dependencies are resolved by pip; this is not an all-platform lockfile.
+SQLAlchemy==2.0.51
+pandas==3.0.6
+matplotlib==3.11.0
+numpy==2.5.3
+pytest==9.2.0

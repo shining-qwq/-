@@ -1,0 +1,72 @@
+{
+  "tool_version": "0.1.0",
+  "metrics_version": 1,
+  "ref_commit": "3c7baaa05ab4aa49cc819ce3a819d260de19c157",
+  "start": "2023-01-01T00:00:00+00:00",
+  "end": "2026-01-01T00:00:00+00:00",
+  "end_exclusive": true,
+  "timezone": "UTC",
+  "merge_commits": "excluded",
+  "author_identity": "trimmed casefolded email, fallback name; no alias or bot filtering",
+  "source_paths": [
+    "requests",
+    "src/requests"
+  ],
+  "canonical_path_rule": "strip src/ prefix",
+  "snapshots": [
+    {
+      "snapshot": "v2.28.2",
+      "commit_hash": "61c324da43dd8b775d3930d76265538b3ca27bc1",
+      "committed_at": "2023-01-12T16:16:09+00:00"
+    },
+    {
+      "snapshot": "v2.29.0",
+      "commit_hash": "87d63de8739263bbe17034fba2285c79780da7e8",
+      "committed_at": "2023-04-26T15:19:11+00:00"
+    },
+    {
+      "snapshot": "v2.30.0",
+      "commit_hash": "2ad18e0e10e7d7ecd5384c378f25ec8821a10a29",
+      "committed_at": "2023-05-03T15:39:44+00:00"
+    },
+    {
+      "snapshot": "v2.31.0",
+      "commit_hash": "147c8511ddbfa5e8f71bbf5c18ede0c4ceb3bba4",
+      "committed_at": "2023-05-22T15:10:32+00:00"
+    },
+    {
+      "snapshot": "v2.32.0",
+      "commit_hash": "d6ebc4a2f1f68b7e355fb7e4dd5ffc0845547f9f",
+      "committed_at": "2024-05-20T15:46:49+00:00"
+    },
+    {
+      "snapshot": "v2.32.3",
+      "commit_hash": "0e322af87745eff34caffe4df68456ebc20d9068",
+      "committed_at": "2024-05-29T15:36:10+00:00"
+    },
+    {
+      "snapshot": "v2.32.4",
+      "commit_hash": "021dc729f0b71a3030cefdbec7fb57a0e80a6cfd",
+      "committed_at": "2025-06-09T16:39:48+00:00"
+    },
+    {
+      "snapshot": "v2.32.5",
+      "commit_hash": "b25c87d7cb8d6a18a37fa12442b5f883f9e41741",
+      "committed_at": "2025-08-18T20:23:20+00:00"
+    }
+  ],
+  "environment": {
+    "python": "3.14.3",
+    "SQLAlchemy": "2.0.51",
+    "pandas": "3.0.6",
+    "matplotlib": "3.11.0"
+  },
+  "run_id": "7ef353766b5e21a2f3a2",
+  "counts": {
+    "commits": 171,
+    "file_changes": 337,
+    "snapshots": 8,
+    "file_snapshots": 144,
+    "parse_failures": 0
+  }
+}
